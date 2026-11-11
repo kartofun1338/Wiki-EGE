@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+!.streamlit/secrets.toml.example
+*.local.toml
+
+# Local databases and user-data backups
+*.db
+*.db-shm
+*.db-wal
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.bak
+*.backup
+*.backup.*
+*.db.bak
+*.sqlite.bak
+backups/
+
+# Test/build/editor artifacts
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+temp/
+tmp/
+*.log
+*.tmp
+*.temp
+*.swp
+*.orig
+.DS_Store
+Thumbs.db
